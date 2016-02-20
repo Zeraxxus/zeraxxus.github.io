@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on www.zeraxxus.dk</title>
+    <link>http://zeraxxus.dk/project/</link>
+    <description>Recent content in Projects on www.zeraxxus.dk</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Bjarne Kristensen</copyright>
+    <lastBuildDate>Thu, 18 Feb 2016 22:19:42 +0100</lastBuildDate>
+    <atom:link href="http://zeraxxus.dk/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Project 1</title>
+      <link>http://zeraxxus.dk/project/first/</link>
+      <pubDate>Thu, 18 Feb 2016 22:19:42 +0100</pubDate>
+      
+      <guid>http://zeraxxus.dk/project/first/</guid>
+      <description>
+
+&lt;h2 id=&#34;project-1:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;Project 1&lt;/h2&gt;
+
+&lt;p&gt;One of my projects.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
