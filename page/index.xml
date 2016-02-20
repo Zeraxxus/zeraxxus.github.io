@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on www.zeraxxus.dk</title>
+    <link>http://www.zeraxxus.dk/page/</link>
+    <description>Recent content in Pages on www.zeraxxus.dk</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Bjarne Kristensen</copyright>
+    <lastBuildDate>Thu, 18 Feb 2016 17:01:15 +0100</lastBuildDate>
+    <atom:link href="http://www.zeraxxus.dk/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About</title>
+      <link>http://www.zeraxxus.dk/page/about/</link>
+      <pubDate>Thu, 18 Feb 2016 17:01:15 +0100</pubDate>
+      
+      <guid>http://www.zeraxxus.dk/page/about/</guid>
+      <description>
+
+&lt;h2 id=&#34;about-headline:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;About headline&lt;/h2&gt;
+
+&lt;p&gt;About me&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://www.zeraxxus.dk/page/contact/</link>
+      <pubDate>Thu, 18 Feb 2016 17:01:15 +0100</pubDate>
+      
+      <guid>http://www.zeraxxus.dk/page/contact/</guid>
+      <description>
+
+&lt;h2 id=&#34;contact-headline:3c4864f00d23f7ea35511ec930ce1d9c&#34;&gt;Contact headline&lt;/h2&gt;
+
+&lt;p&gt;How to contact me&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
