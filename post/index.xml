@@ -7,34 +7,337 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Bjarne Kristensen</copyright>
-    <lastBuildDate>Fri, 19 Feb 2016 14:18:25 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 21 Feb 2016 14:39:42 +0100</lastBuildDate>
     <atom:link href="http://www.zeraxxus.dk/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Second</title>
-      <link>http://www.zeraxxus.dk/post/second/</link>
-      <pubDate>Fri, 19 Feb 2016 14:18:25 +0100</pubDate>
+      <title>Markdown Test</title>
+      <link>http://www.zeraxxus.dk/post/markdown-test/</link>
+      <pubDate>Sun, 21 Feb 2016 14:39:42 +0100</pubDate>
       
-      <guid>http://www.zeraxxus.dk/post/second/</guid>
+      <guid>http://www.zeraxxus.dk/post/markdown-test/</guid>
       <description>
 
-&lt;h3 id=&#34;the-second-test-post:9f7936f9b5c071ae81db818b80a44a0d&#34;&gt;The Second Test Post&lt;/h3&gt;
+&lt;h1 id=&#34;header:86ac849859807c9737e753d784ef51b4&#34;&gt;Header&lt;/h1&gt;
 
-&lt;p&gt;Yeah, I tried again.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>First</title>
-      <link>http://www.zeraxxus.dk/post/first/</link>
-      <pubDate>Thu, 18 Feb 2016 17:07:50 +0100</pubDate>
-      
-      <guid>http://www.zeraxxus.dk/post/first/</guid>
-      <description>
+&lt;h2 id=&#34;header-1:86ac849859807c9737e753d784ef51b4&#34;&gt;Header&lt;/h2&gt;
 
-&lt;h2 id=&#34;the-first-test-post:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;The First Test Post&lt;/h2&gt;
+&lt;h3 id=&#34;header-2:86ac849859807c9737e753d784ef51b4&#34;&gt;Header&lt;/h3&gt;
 
-&lt;p&gt;Yeah, this is exactly what it is. I don&amp;rsquo;t know what about is doing before me!&lt;/p&gt;
+&lt;h4 id=&#34;header-3:86ac849859807c9737e753d784ef51b4&#34;&gt;Header&lt;/h4&gt;
+
+&lt;h5 id=&#34;header-4:86ac849859807c9737e753d784ef51b4&#34;&gt;Header&lt;/h5&gt;
+
+&lt;h6 id=&#34;header-5:86ac849859807c9737e753d784ef51b4&#34;&gt;Header&lt;/h6&gt;
+
+&lt;pre&gt;&lt;code&gt;# Header
+
+## Header
+
+### Header 
+
+#### Header
+
+##### Header
+
+###### Header
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;emphasising-text:86ac849859807c9737e753d784ef51b4&#34;&gt;Emphasising text&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;bold&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;italic&lt;/em&gt; and &lt;em&gt;italic&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;italic bold&lt;/em&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;em&gt;italic bold&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;del&gt;Strikethrough&lt;/del&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;**bold**
+
+*italic* and _italic_  
+
+***italic bold*** and **_italic bold_**  
+
+~~Strikethrough~~  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;numbered-list:86ac849859807c9737e753d784ef51b4&#34;&gt;Numbered List&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Item&lt;/li&gt;
+&lt;li&gt;Item
+
+&lt;ol&gt;
+&lt;li&gt;Item&lt;/li&gt;
+&lt;li&gt;Item&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;Item
+
+&lt;ul&gt;
+&lt;li&gt;Item&lt;/li&gt;
+&lt;li&gt;Item&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Item&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code&gt;1. Item
+2. Item
+   1. Item
+   2. Item
+3. Item
+   * Item
+   * Item
+4. Item
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;unordered-list:86ac849859807c9737e753d784ef51b4&#34;&gt;Unordered list&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Item&lt;/li&gt;
+&lt;li&gt;Item
+
+&lt;ol&gt;
+&lt;li&gt;Item&lt;/li&gt;
+&lt;li&gt;Item&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;Item
+
+&lt;ul&gt;
+&lt;li&gt;Item&lt;/li&gt;
+&lt;li&gt;Item&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Item&lt;/li&gt;
+&lt;li&gt;Item&lt;/li&gt;
+&lt;li&gt;Item&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;* Item
+* Item
+  1. Item
+  2. Item
+- Item
+  * Item
+  * Item
+- Item
++ Item
++ Item
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;block-quote:86ac849859807c9737e753d784ef51b4&#34;&gt;Block quote&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;This is just a sample to see how block quotes look.&lt;br /&gt;
+And it seems just fine and easy.&lt;br /&gt;
+&lt;br&gt;
+And an emty line above, but will not show.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;gt; This is just a sample to see how block quotes look.  
+&amp;gt; And it seems just fine and easy.  
+&amp;gt; &amp;lt;br&amp;gt;
+&amp;gt; And an emty line above, but will not show.  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;horizontal-line:86ac849859807c9737e753d784ef51b4&#34;&gt;Horizontal line&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;pre&gt;&lt;code&gt;- - -
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;code-block:86ac849859807c9737e753d784ef51b4&#34;&gt;Code block&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;C:\_ singlelinecode.exe
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;void FancyAlert(char* word) {
+  if(word) {
+    printf(&amp;quot;%s is fancy!&amp;quot;, word);
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;code is displayed using three grave accents &amp;#96; or tildes &amp;#126; before and after the code, like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;```
+void FancyAlert(char* word) {
+  if(word) {
+    printf(&amp;quot;%s is fancy!&amp;quot;, word);
+  }
+}
+```
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;or&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;~~~
+void FancyAlert(char* word) {
+  if(word) {
+    printf(&amp;quot;%s is fancy!&amp;quot;, word);
+  }
+}
+~~~
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;links:86ac849859807c9737e753d784ef51b4&#34;&gt;Links&lt;/h3&gt;
+
+&lt;p&gt;My website &lt;a href=&#34;http://www.zeraxxus.dk&#34;&gt;http://www.zeraxxus.dk&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;My website &lt;a href=&#34;http://www.zeraxxus.dk&#34;&gt;www.zeraxxus.dk&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;My website &lt;a href=&#34;http://www.zeraxxus.dk&#34; title=&#34;www.zeraxxus.dk&#34;&gt;www.zeraxxus.dk&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Not my email &lt;a href=&#34;mailto:name@email.com&#34;&gt;name@email.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;My website &amp;lt;http://www.zeraxxus.dk&amp;gt;
+
+My website [www.zeraxxus.dk](http://www.zeraxxus.dk)
+
+My website [www.zeraxxus.dk](http://www.zeraxxus.dk &amp;quot;www.zeraxxus.dk&amp;quot;)
+
+Not my email &amp;lt;name@email.com&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;images:86ac849859807c9737e753d784ef51b4&#34;&gt;Images&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://opensource.org/files/osi_keyhole_300X300_90ppi_0.png&#34; alt=&#34;Open Source keyhole logo&#34; title=&#34;Open Source&#34; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;![Open Source keyhole logo](https://opensource.org/files/osi_keyhole_300X300_90ppi_0.png &amp;quot;Open Source&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;youtube:86ac849859807c9737e753d784ef51b4&#34;&gt;Youtube&lt;/h3&gt;
+
+&lt;p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/Iwmwa3c0hUA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+&lt;br&gt;
+youtube embeds are inserted via hugo macros like this:&lt;/p&gt;
+
+&lt;p&gt;&amp;#123;&amp;#123;&amp;#60; youtube Iwmwa3c0hUA &amp;#62;&amp;#125;&amp;#125;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;footnotes:86ac849859807c9737e753d784ef51b4&#34;&gt;Footnotes&lt;/h3&gt;
+
+&lt;p&gt;This text really needs a footnote.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:86ac849859807c9737e753d784ef51b4:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:86ac849859807c9737e753d784ef51b4:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; This text might need some footnoting as well with a link to a website.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:86ac849859807c9737e753d784ef51b4:2&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:86ac849859807c9737e753d784ef51b4:2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Footnotes are made like this:&lt;br /&gt;
+&lt;code&gt;This text really needs a footnote.[^1] This text might need some footnoting as well with a link to a website.[^2]&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;[^1]: Footnote 1 text.&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;[^2]: [Footnote 2 link](http://www.zeraxxus.dk)&lt;/code&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;tables:86ac849859807c9737e753d784ef51b4&#34;&gt;Tables&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Good Food&lt;/th&gt;
+&lt;th&gt;Bad Food&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Fruits&lt;/td&gt;
+&lt;td&gt;Candy&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Carrots&lt;/td&gt;
+&lt;td&gt;Potato Chips&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Beans&lt;/td&gt;
+&lt;td&gt;Meat&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;First Name&lt;/th&gt;
+&lt;th&gt;Last Name&lt;/th&gt;
+&lt;th&gt;Score&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Jane&lt;/td&gt;
+&lt;td&gt;Smith&lt;/td&gt;
+&lt;td&gt;780&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;John&lt;/td&gt;
+&lt;td&gt;Smith&lt;/td&gt;
+&lt;td&gt;640&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Jack&lt;/td&gt;
+&lt;td&gt;Johnson&lt;/td&gt;
+&lt;td&gt;540&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Sue&lt;/td&gt;
+&lt;td&gt;Johnson&lt;/td&gt;
+&lt;td&gt;350&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;pre&gt;&lt;code&gt;Good Food | Bad Food
+--- | ---
+Fruits | Candy
+Carrots | Potato Chips
+Beans | Meat
+
+First Name | Last Name | Score
+--- | --- | ---
+Jane | Smith | 780
+John | Smith | 640
+Jack | Johnson | 540
+Sue | Johnson | 350
+&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:86ac849859807c9737e753d784ef51b4:1&#34;&gt;Footnote 1 text.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:86ac849859807c9737e753d784ef51b4:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:86ac849859807c9737e753d784ef51b4:2&#34;&gt;&lt;a href=&#34;http://www.zeraxxus.dk&#34;&gt;Footnote 2 link&lt;/a&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:86ac849859807c9737e753d784ef51b4:2&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
 </description>
     </item>
     

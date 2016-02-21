@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>www.zeraxxus.dk</title>
-    <link>http://www.zeraxxus.dk/</link>
-    <description>Recent content on www.zeraxxus.dk</description>
+    <title>Markdown on www.zeraxxus.dk</title>
+    <link>http://www.zeraxxus.dk/tags/markdown/</link>
+    <description>Recent content in Markdown on www.zeraxxus.dk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Bjarne Kristensen</copyright>
     <lastBuildDate>Sun, 21 Feb 2016 14:39:42 +0100</lastBuildDate>
-    <atom:link href="http://www.zeraxxus.dk/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.zeraxxus.dk/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Markdown Test</title>
@@ -338,48 +338,6 @@ Sue | Johnson | 350
  &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:86ac849859807c9737e753d784ef51b4:2&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Project 1</title>
-      <link>http://www.zeraxxus.dk/project/first/</link>
-      <pubDate>Thu, 18 Feb 2016 22:19:42 +0100</pubDate>
-      
-      <guid>http://www.zeraxxus.dk/project/first/</guid>
-      <description>
-
-&lt;h2 id=&#34;project-1:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;Project 1&lt;/h2&gt;
-
-&lt;p&gt;One of my projects.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>http://www.zeraxxus.dk/page/about/</link>
-      <pubDate>Thu, 18 Feb 2016 17:01:15 +0100</pubDate>
-      
-      <guid>http://www.zeraxxus.dk/page/about/</guid>
-      <description>
-
-&lt;h2 id=&#34;about-headline:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;About headline&lt;/h2&gt;
-
-&lt;p&gt;About me&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>http://www.zeraxxus.dk/page/contact/</link>
-      <pubDate>Thu, 18 Feb 2016 17:01:15 +0100</pubDate>
-      
-      <guid>http://www.zeraxxus.dk/page/contact/</guid>
-      <description>
-
-&lt;h2 id=&#34;contact-headline:3c4864f00d23f7ea35511ec930ce1d9c&#34;&gt;Contact headline&lt;/h2&gt;
-
-&lt;p&gt;How to contact me&lt;/p&gt;
 </description>
     </item>
     
